@@ -1,5 +1,8 @@
 # Kalpas - BookKeeping Backend
 
+## ⚠️ Important Notice
+> **File Uploading is Disabled**: The Firebase key.json file has been removed, and Firebase storage is not used because the **Firebase bucket is a paid feature**. Any file uploading functionality has been disabled in this project.
+
 ## 📌 Project Overview
 Kalpas is a bookkeeping service with three core models:
 - **Books**: Each book is written by an author and is owned by a library.
@@ -86,4 +89,3 @@ npm start
 | DELETE | `/api/libraries/:id/inventory/:bookId/` | Remove a book from library inventory |
 
 ---
-
