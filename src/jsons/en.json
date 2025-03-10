@@ -1,0 +1,79 @@
+{
+	"AUTH": {
+		"MISSING_TOKEN": "Missing token",
+		"INVALID_TOKEN": "Invalid token",
+		"INVALID_CREDENTIALS": "Invalid credentials",
+		"NOT_AUTHORIZED": "You are not authorized for this action",
+		"MISSING_REFRESH_TOKEN": "Refresh token is missing.",
+		"INVALID_REFRESH_TOKEN": "invalid refresh token.",
+		"REFRESH_SUCCESS": "Token refreshed successfully",
+		"REFRESH_FAIL": "Failed to refresh token"
+	},
+	"USER": {
+		"REGISTER_SUCCESS": "User registered successfully",
+		"REGISTER_FAIL": "User registration failed",
+		"LOGIN_SUCCESS": "Login successful",
+		"LOGIN_FAIL": "Login failed",
+		"LOGOUT_SUCCESS": "Logout successful",
+		"LOGOUT_FAIL": "Logout failed"
+	},
+	"BODY": {
+		"FEILDS": "Please provide all required feilds in the body."
+	},
+	"PARAMS": {
+		"FEILDS": "Please provide all required parameters."
+	},
+	"IMAGE": {
+		"UPLOAD_SUCCESS": "Image uploaded successfully",
+		"UPLOAD_NO_FILE": "No file uploaded",
+		"UPLOAD_FORMAT_NOT_SUPPORTED": "File format not supported",
+		"UPLOAD_FAILED": "Image upload failed",
+		"UPLOAD_INVALID_REQUEST": "Invalid upload request",
+		"UPLOAD_MISSING_FIELDS": "Required fields are missing"
+	},
+	"BOOK": {
+		"FETCH_ERROR": "Failed to fetch books",
+		"FETCH_SUCCESS": "Books fetched successfully",
+		"NOT_FOUND": "Book not found",
+		"CREATE_SUCCESS": "Book created successfully",
+		"CREATE_FAIL": "Failed to create book",
+		"UPDATE_SUCCESS": "Book updated successfully",
+		"UPDATE_FAIL": "Failed to update book",
+		"DELETE_SUCCESS": "Book deleted successfully",
+		"DELETE_FAIL": "Failed to delete book",
+		"ALREADY_BORROWED": "Book is already borrowed"
+	},
+	"BORROWING": {
+		"SUCCESS": "Book borrowed successfully",
+		"FAIL": "Failed to borrow book",
+		"NOT_AUTHORIZED_RETURN": "You are not authorized to return this book",
+		"RETURN_SUCCESS": "Book returned successfully",
+		"RETURN_FAIL": "Failed to return book"
+	},
+	"LIBRARY": {
+		"FETCH_ERROR": "Failed to fetch libraries",
+		"FETCH_SUCCESS": "Libraries fetched successfully.",
+		"NOT_FOUND": "Library not found",
+		"CREATE_SUCCESS": "Library created successfully",
+		"CREATE_FAIL": "Failed to create library",
+		"UPDATE_SUCCESS": "Library updated successfully",
+		"UPDATE_FAIL": "Failed to update library",
+		"DELETE_SUCCESS": "Library deleted successfully",
+		"DELETE_FAIL": "Failed to delete library"
+	},
+	"INVENTORY": {
+		"FETCH_ERROR": "Failed to fetch inventory",
+		"ADD_SUCCESS": "Book added to inventory successfully",
+		"ADD_FAIL": "Failed to add book to inventory",
+		"NOT_FOUND": "Book not found in inventory",
+		"DELETE_SUCCESS": "Book removed from inventory successfully",
+		"DELETE_FAIL": "Failed to remove book from inventory",
+		"REMOVE_SUCCESS": "book has been removed from inventory"
+	},
+"IMAGE.UPLOAD_FAILED": "IMAGE UPLOAD FAILED",
+"AUTH.INVALID_TOKEN": "AUTH INVALID TOKEN",
+"BODY.FEILDS": "BODY FIELDS",
+"USER.REGISTER_SUCCESS": "USER REGISTER SUCCESS",
+"USER.REGISTER_FAIL": "USER REGISTER FAIL"
+
+}
